@@ -30,7 +30,6 @@ public class Main_Ticket {
 		
 		while(true) {
 			ArrayList<ProcessingClass> arrayProcess = new ArrayList<ProcessingClass>();
-			
 			while(true) {
 				processing = new ProcessingClass();
 				ticketType = input.ticketType();
@@ -51,7 +50,6 @@ public class Main_Ticket {
 				
 				arrayProcess.add(processing);
 				continueTicket = input.continueTicket();
-				//db.db(arrayRun);
 				//out.addToDatabase(processing);
 				
 				if(continueTicket == 2) {
@@ -61,13 +59,14 @@ public class Main_Ticket {
 			}
 			
 			exit = input.exit();
-			/*if(exit == 2) {
+			if(exit == 2) {
 				fileout.FileOut(arrayProcess);
-				out.printDatabase();
-				out.printticketType();
-				out.printdayResult();
-				out.printhandicapResult();
-				break;*/
+				//out.printDatabase();
+				//out.printticketType();
+				//out.printdayResult();
+				//out.printhandicapResult();
+				break;
 			}
 		}
 	}
+}

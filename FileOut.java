@@ -15,7 +15,7 @@ public class FileOut {
 	Date date = null;
 	FileWriter fw = null;
 	
-	public void WriteClass(ArrayList<ProcessingClass> arrayProcess) {
+	public void FileOut (ArrayList<ProcessingClass> arrayProcess) {
 		try {
 			ProcessingClass processing = null;
 			sdf = new SimpleDateFormat("yyyy-MM-dd");
