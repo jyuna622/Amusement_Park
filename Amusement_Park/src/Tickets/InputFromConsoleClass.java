@@ -1,4 +1,4 @@
-package AmusementPark;
+package Tickets;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package AmusementPark;
+package Tickets;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -17,7 +17,8 @@ public class Main_Ticket {
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
 		Date date = new Date();
-		
+		//Database db = new Database();
+		//DatabaseOutputClass out = new DatabaseOutputClass();
 		
 		int ticketType;
 		String customerId;
@@ -60,6 +61,10 @@ public class Main_Ticket {
 			exit = input.exit();
 			if(exit == 2) {
 				fileout.FileOut(arrayProcess);
+				//out.printDatabase();
+				//out.printticketType();
+				//out.printdayResult();
+				//out.printhandicapResult();
 				break;
 			}
 		}

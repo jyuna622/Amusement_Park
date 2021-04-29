@@ -1,4 +1,4 @@
-package AmusementPark;
+package Tickets;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;

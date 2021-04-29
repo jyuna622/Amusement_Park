@@ -1,4 +1,4 @@
-package AmusementPark;
+package Tickets;
 
 public class FixedValue {
 	//변수 클래스
