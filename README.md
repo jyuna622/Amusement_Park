@@ -1,1 +1,3 @@
-# Amusement_Park
+# Amusement_Park Project
+
+Yuna Ji
